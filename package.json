@@ -1,0 +1,19 @@
+{
+  "name": "patchcompose-legacy-mentions",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/patchcompose-legacy-mentions",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/patchcompose-legacy-mentions.git"
+  },
+  "dependencies": {
+    "ssb-mentions": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
